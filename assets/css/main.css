@@ -120,10 +120,15 @@ body {
 }
 
 .icon-groups {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.dual-links {
+  display: flex;
 }
 
 ol,
