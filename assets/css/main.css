@@ -122,9 +122,12 @@ body {
 .icon-groups {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: flex-end;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icons {
+	padding: 0 20px;
 }
 
 .dual-links {
